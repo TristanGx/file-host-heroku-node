@@ -1,0 +1,19 @@
+{
+  "name": "file-host-heroku-node",
+  "version": "1.0.0",
+  "description": "a file hosting app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TristanGx/file-host-heroku-node.git"
+  },
+  "author": "TristanGx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TristanGx/file-host-heroku-node/issues"
+  },
+  "homepage": "https://github.com/TristanGx/file-host-heroku-node#readme"
+}
