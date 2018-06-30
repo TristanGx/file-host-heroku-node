@@ -4,6 +4,7 @@
   "description": "a file hosting app",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "test app"
   },
   "repository": {
