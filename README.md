@@ -1,3 +1,3 @@
 # file-host-heroku-node
 
-a small website for hsoting my files
+a small website for hosting my files
