@@ -1,7 +1,7 @@
 const app = require("express")()
 const path = require("path")
 
-var port = process.env.PORT || 5000
+var port = process.env.PORT
 
 app.get("/", (req, res) => {
     res.send({hello : "world"})
