@@ -4,7 +4,7 @@ const path = require("path")
 var port = process.env.PORT
 
 app.get("/", (req, res) => {
-    res.send({hello : "world"})
+    res.sendFile(path.join(__dirname, "index.html"))
 }).listen(port, function (err) {
     console.log("Running on port:" + port)
 })
