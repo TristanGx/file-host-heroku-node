@@ -4,7 +4,7 @@ const path = require("path")
 var port = process.env.PORT || 5000
 
 app.get("/", (req, res) => {
-    res.sendFile("assets/html/index.js")
+    res.sendFile("index.js")
     if (req.url != "/") {
         res.sendFile(req.url)
     }
